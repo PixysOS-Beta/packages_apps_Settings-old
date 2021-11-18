@@ -221,4 +221,10 @@
     <!-- Lockscreen media art -->
     <string name="keygaurd_media_art_title">Media art</string>
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
 </resources>
