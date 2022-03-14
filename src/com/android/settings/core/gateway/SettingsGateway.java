@@ -169,6 +169,12 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+<<<<<<< HEAD
+=======
+import com.cherish.settings.CherishSettings;
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
+>>>>>>> 6405acaa2b... SoftAp: add client manager
 public class SettingsGateway {
 
     /**
@@ -326,6 +332,7 @@ public class SettingsGateway {
             AlarmsAndRemindersDetails.class.getName(),
             ThemeSettings.class.getName(),            
             MediaManagementAppsDetails.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
