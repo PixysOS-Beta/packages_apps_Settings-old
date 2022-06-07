@@ -318,11 +318,11 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
         mIsInSetupWizard = WizardManagerHelper.isAnySetupWizard(intent);
     }
 
-     private boolean isAdminUser() {
+    private boolean isAdminUser() {
         final UserManager userManager = getSystemService(UserManager.class);
         if (userManager == null) return true;
         return userManager.isAdminUser();
-
+    }
 
     @Override
     public RecyclerView onCreateRecyclerView(LayoutInflater inflater, ViewGroup parent,
@@ -333,7 +333,6 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
         } else {
             return super.onCreateRecyclerView(inflater, parent, savedInstanceState);
         }
-
     }
 
     private void addPreferences() {
